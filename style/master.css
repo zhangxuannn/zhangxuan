@@ -1,0 +1,383 @@
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/* index banner */
+.banner {
+	width: 100%;
+	position: relative;
+}
+/* banner 分页器 */
+.swiper-pagination {
+	width: 100%!important;
+	text-align: center!important;
+	bottom: 0.1rem!important;
+}
+.swiper-pagination-bullet {
+	background-color: transparent!important;
+	opacity: 1!important;
+	border: 2px solid #ffd200;
+}
+.swiper-pagination-bullet-active {
+	background-color: #ffd200!important;
+	border: 2px solid #ffd200;
+}
+/* banner 分页器 */
+
+
+
+
+/* -------------------------自定义部分开始 --------------------------*/
+
+.allpage {
+	background-color: #fff!important;
+}
+body, input {
+	font-family: "microsoft yahei";
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/* 		文字导航  		*/
+.nav_new {
+	width: 100%;
+	background-color: #220000;
+}
+.nav_new ul li {
+	width: 25%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	float: left;
+	text-align: center;
+	border-bottom: 1px solid #5c2c2c;
+}
+.nav_new ul li:nth-child(4) {
+	border-right: none
+}
+.nav_new ul li:last-child {
+	border-right: none
+}
+.nav_new ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 0.64rem;
+	color: #fff;
+	font-size: 0.22rem;
+	font-family: "microsoft yahei";/* 	border-right: 1px solid #fff; */
+}
+.nav_new ul li:nth-child(5) a {
+	border: none!important;
+}
+.nav_new ul li:last-child a {
+	border: none;
+}
+/* icon */
+.nav_new ul li a span {
+	font-size: 0.4rem;
+	display: inline-block;
+	margin-right: 8%;
+ color#:958ba6;
+}
+/* 首页公共样式 */
+.common_i_css {
+	background-color: #fff;
+	padding: 0 4%;
+	padding-bottom: 1.5%;
+	padding-top: 1%;
+	margin-bottom: 1.5%;/* 	border-top: 1px solid #eaeaea;
+border-bottom: 1px solid #eaeaea; */
+}
+.common_i_title {
+	padding: 2% 0;
+	background-color: #c3a068;
+}
+.common_i_title h2 {
+	display: inline-block;
+	width: 50%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	color: #fff;
+	font-size: 0.26rem;
+	font-weight: normal;
+	/* 	padding-bottom: 2%; */
+	padding-left: 4%;
+}
+.common_i_title a {
+	display: inline-block;
+	padding: 0.3% 2.5%;
+	float: right;
+	color: #fff;
+	font-size: 0.23rem;
+	background-color: #9d8256;
+	border-radius: 10px;
+	margin-right: 4%;
+	margin-top: 0.5%;
+}
+/* 新闻样式 */
+.news_i_list ul li {
+	padding: 1% 0;
+	border-bottom: 1px dotted #c3a068;
+	background: url(../images/icons1.jpg) 8px center no-repeat;
+}
+.news_i_list ul li a {
+	display: inline-block;
+	width: 98%;
+	color: #000000;
+	font-size: 0.22rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-indent: 0.45rem;
+}
+/* 图文样式 */
+.yewu_i {
+	padding-bottom: 3%;
+	border-top: none!important;
+}
+.yewu_i_list {
+	margin-top: 4%;
+}
+.yewu_i_list ul li {
+	margin-bottom: 2.5%;
+	padding-bottom: 2.5%;
+	border-bottom: 1px solid #e5d4b3;
+}
+.i_list_pic {
+	width: 37.93%;
+	float: left;
+}
+.i_list_text {
+	width: 58%;
+	float: left;
+	margin-left: 4%;
+}
+.i_list_text a h2 {
+	font-size: 0.26rem;
+	font-weight: normal;
+	color: #a47935;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.i_list_text a span {
+	font-size: 0.21rem;
+	line-height: 1.5;
+	color: #988e7f;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+}
+.i_list_text strong {
+	display: inline-block;
+	width: 50%;
+	padding: 1.5% 0;
+	font-weight: normal;
+	font-size: 0.21rem;
+	text-align: center;
+	color: #fff;
+	background-color: #312a3a;/* 	border-radius: 25px; */
+}
+/* 首页文本 */
+.about_i_text {
+	line-height: 1.6;
+	font-size: 0.21rem;/* 	padding-bottom: 3%; */
+}
+/* 带连接 */
+.about_i_tab {
+	text-align: center;
+	margin: 3% 0;
+}
+.about_i_tab a {
+	display: inline-block;
+	width: 28%;
+	padding: 1% 0;
+	margin: 0 1%;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.about_i_tab a:first-child {
+	background-color: #fed100;
+}
+.about_i_tab a:nth-child(2) {
+	background-color: #9705b1;
+}
+.about_i_tab a:nth-child(3) {
+	background-color: #f23c93;
+}
+/* 加盟热线 */
+.jiameng_tel {
+	text-align: center;
+	padding: 1.5% 0;
+}
+.jiameng_tel h2 {
+	display: inline-block;
+	width: 85%;
+	padding: 1.5% 0;
+	font-size: 0.26rem;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	background-color: #2cb73e;
+	border-radius: 25px;
+	margin-bottom: 2%;
+}
+.jiameng_tel_color h2 {
+	background-color: #ff5050;
+}
+/* 产品样式 */
+/* .product_i {
+	padding-bottom: 2.5%;
+} */
+.product_i_list {
+	margin: 2% 0;
+}
+.product_i_list ul li {
+	width: 47%;
+	float: left;
+	margin: 0 0.5%;
+	margin-bottom: 2%;
+}
+.product_i_list ul li:nth-child(even) {
+	margin-left: 4.5%;
+}
+.product_i_list ul li a h2 {
+	width: 100%;
+	color: #000;
+	font-size: 0.23rem;
+	font-weight: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-top: 2%;
+}
+.product_i_list ul li a span {
+	display: inline-block;
+	width: 100%;
+	/* 	height: 0.45rem;
+line-height: 0.45rem; */
+/* 	background-color: #114275; */
+	font-size: 0.21rem;
+	color: #ff5050;
+	text-align: left;
+}
+/* 产品样式二 */
+.product_i_list_second ul li {
+	position: relative;
+}
+.product_i_list_second h2 {
+	width: 90%!important;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	padding: 0 5%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff!important;
+}
+.product_i_list_new ul li {
+	width: 31.3%;
+	float: left;
+	margin: 0 1%;
+	margin-bottom: 1%;
+}
+.product_i_list_new ul li a span {
+	display: inline-block;
+	width: 100%;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	/* background-color: #114275; */
+	font-size: 0.21rem;
+	color: #333;
+	text-align: center;
+}
+.more_i {
+	text-align: center;
+	background-color: #f2f2f2;
+	font-size: 0.23rem;
+}
+.more_i a {
+	display: inline-block;
+	color: #8c8c8c;
+	padding: 2% 0;
+}
+/* 联系方式 */
+.baoming {
+	padding: 2% 8%;
+	color: #988e7f;
+	text-align: left;
+	font-size: 0.23rem;
+	line-height: 1.7;
+	background: #e8e6e2 url(../images/00015800_39.jpg) no-repeat 95% center;
+	-webkit-background-size: 31%;
+	background-size: 31%;
+}
+.baoming div {
+	font-size: 0.5rem;
+}
+.baoming h2 {
+	color: #988e7f;
+	font-size: 0.4rem;
+}
+.beian {
+	background-color: #fff;
+	color: #720b10;
+	text-align: center;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	font-size: 0.21rem;
+}
+.beian a {
+	color: #720b10;
+	font-size: 0.21rem;
+}
+.tab_nav {
+	padding-top: 2%;
+	/* 	padding-bottom: 4%; */
+	background-color: #fff;
+}
+.tab_nav a {
+	display: inline-block;
+	width: 49.5%;
+	height: 0.6rem;
+	line-height: 0.5rem;
+	color: #fff;
+	font-size: 0.23rem;
+	text-align: center;
+}
+.tab_nav a span {
+	display: inline-block;
+	margin-right: 5%;
+	font-size: 0.4rem;
+	margin-top: 0.05rem;
+}
+.tab_nav a:first-child {
+	float: left;
+	background-color: #2cb73e;
+}
+.tab_nav a:nth-child(2) {
+	float: right;
+	background-color: #ff5050;
+}
+.cbtn-top {
+	display: none;
+	position: fixed;
+	right: 2%;
+	bottom: 10%;
+	border-radius: 50%;
+	width: 2.25em;
+	height: 2.25em;
+	padding: 0.3125em;
+	color: #ffffff;
+	font-size: 1.2em;
+	text-align: center;
+	cursor: pointer;
+	z-index: 99999;
+	background: #390007;
+	color: #FFF;
+	opacity: .8;
+}
